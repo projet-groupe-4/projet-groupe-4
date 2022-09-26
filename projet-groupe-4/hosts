@@ -1,0 +1,2 @@
+[romero]
+192.168.245.129 ansible_ssh_user=romero ansible_ssh_pass=romero
