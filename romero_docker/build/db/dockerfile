@@ -1,0 +1,2 @@
+ FROM mariadb:10.7
+ RUN mysql -u root presentation < /var/lib/mysql/articles.sql

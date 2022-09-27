@@ -1,2 +1,2 @@
 [romero]
-192.168.245.129 ansible_ssh_user=romero ansible_ssh_pass=romero
+192.168.245.129 ansible_ssh_private_key_file="romero_python/id_rsa" ansible_ssh_user=romero

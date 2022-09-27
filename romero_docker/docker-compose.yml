@@ -1,0 +1,26 @@
+version: '3.3'
+
+services:
+  php:
+    image: php:8.0-apache    
+    ports:
+      - 80:80
+    volumes:
+      - ./php:/var/www/html/
+      # - ./build/web.sh:/docker-entrypoint-initdb.d/1.sh
+    hostname: web
+    # build: ./build/web/        
+  mariadb:    
+    image: mariadb:10.7
+    ports:
+      - 3306:3306
+    volumes:
+      - ./build/db/db.sql:/docker-entrypoint-initdb.d/1.sql
+      - ./db/articles.sql:/var/lib/mysql/articles.sql
+    hostname: db    
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+      - MYSQL_DATABASE=presentation
+      - MYSQL_PASSWORD=admin
+      - MYSQL_USER=admin
+    # build: ./build/db/

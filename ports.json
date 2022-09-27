@@ -1,0 +1,11 @@
+ 2022-09-27 08:29:27.654606 
+port 22 is open, the service is OpenSSH.
+ 2022-09-27 08:30:30.315650 machine 192.168.245.129 
+port 22 is open, the service is OpenSSH.
+ 
+    2022-09-27 08:30:58.552178 machine 192.168.245.129 
+port 22 is open, the service is OpenSSH.
+ 
+    2022-09-27 08:31:30.122299 machine 127.0.0.1 
+port 22 is open, the service is OpenSSH.
+port 80 is open, the service is nginx.
