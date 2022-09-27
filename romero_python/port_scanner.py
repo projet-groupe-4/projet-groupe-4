@@ -31,10 +31,3 @@ for i in range(begin,end+1):
     if res != "closed":
       with open("ports.json", "a") as outfile:        
         print(f'port {i} is {res}, the service is {res1}.', file=outfile)
-  
-myFile2= open("myFile1.txt", "w")
-myFile2.seek(0)
-myFile2.write("New content by using truncate() method")
-myFile2.truncate()
-myFile2= open("myFile1.txt", "r")
-print(myFile2.read())
