@@ -17,6 +17,6 @@ client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 client.connect(host, username=username, pkey=pkey)
 client.exec_command("git clone https://github.com/vulmon/Vulmap-Local-Vulnerability-Scanners.git")
 _stdin, _stdout,_stderr = client.exec_command(command)
-with open("resultat.txt", "w") as result:
+with open("scan_vulmap.txt", "w") as result:
     result.write(_stdout.read().decode().rstrip())
 client.close()

@@ -1,0 +1,14 @@
+port : 22	state : openport : 5000	state : openport : 22	state : openport : 80	state : open----------------------------------------------------Host : 192.168.245.129 ()State : up----------Protocol : tcpport : 22	state : openport : 5000	state : open----------------------------------------------------Host : 192.168.245.130 (romero)State : up----------Protocol : tcpport : 22	state : openport : 80	state : open----------------------------------------------------Host : 192.168.245.129 ()State : up----------Protocol : tcpport : 22	state : openport : 5000	state : open----------------------------------------------------Host : 192.168.245.130 (romero)State : up----------Protocol : tcpport : 22	state : openport : 80	state : open----------------------------------------------------
+Host : 192.168.245.129 ()
+State : up
+----------
+Protocol : tcp
+port : 22	state : open
+port : 5000	state : open
+----------------------------------------------------
+Host : 192.168.245.130 (romero)
+State : up
+----------
+Protocol : tcp
+port : 22	state : open
+port : 80	state : open
