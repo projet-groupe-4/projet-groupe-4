@@ -1,0 +1,9 @@
+---
+- name: docker reload
+  service: name=docker state=reloaded
+
+# - name: nginx reload
+#   service: name=nginx state=reloaded
+
+# - name: php-fpm reload
+#   service: name=php7.3-fpm state=reloaded

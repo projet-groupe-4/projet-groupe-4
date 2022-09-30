@@ -1,0 +1,15 @@
+---
+- name: projet groupe 4
+<<<<<<< HEAD
+  hosts: web
+=======
+  hosts: romero
+>>>>>>> 99ab2f1 (python files)
+  remote_user: romero
+  become: yes
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  roles:
+    - Installation
+    - Configuration
+...
