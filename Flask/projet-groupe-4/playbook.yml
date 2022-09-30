@@ -1,0 +1,11 @@
+---
+- name: projet groupe 4
+  hosts: web
+  remote_user: projet-groupe-4
+  become: yes
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  roles:
+    - Installation
+    - Configuration
+...

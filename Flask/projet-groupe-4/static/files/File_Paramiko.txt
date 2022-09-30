@@ -1,0 +1,7 @@
+Sys. de fichiers blocs de 1K Utilisé Disponible Uti% Monté sur
+udev                  974656       0     974656   0% /dev
+tmpfs                 199656    1336     198320   1% /run
+/dev/sda1           19480400 5561136   12904380  31% /
+tmpfs                 998268       0     998268   0% /dev/shm
+tmpfs                   5120       4       5116   1% /run/lock
+tmpfs                 199652     104     199548   1% /run/user/1000

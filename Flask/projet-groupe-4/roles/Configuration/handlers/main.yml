@@ -1,0 +1,4 @@
+---
+- name: docker reload
+  service: name=docker state=reloaded
+

@@ -1,0 +1,26 @@
+body {
+    background: rgb(106, 106, 106);
+  }
+
+.wrapper {
+    width: 600px; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+a:link 
+{ 
+ text-decoration:none; 
+} 
+.nse1{
+  color: white;
+}
+.nse2{
+  color: white;
+}
+.paramiko{
+  color: white;
+}
+  
+ 

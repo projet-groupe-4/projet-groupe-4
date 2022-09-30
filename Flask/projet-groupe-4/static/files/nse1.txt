@@ -1,0 +1,1 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-09-30 10:12 CEST

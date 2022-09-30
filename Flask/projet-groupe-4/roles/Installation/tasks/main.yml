@@ -1,0 +1,10 @@
+---
+- name: Install Docker
+  apt: name="{{ item }}" update_cache=yes state=latest
+  loop:
+  - docker
+  - docker.io
+  - docker-compose
+  - docker-registry
+  when: ansible_distribution == "Debian"
+

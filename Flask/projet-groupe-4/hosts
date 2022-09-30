@@ -1,0 +1,2 @@
+[web]
+192.168.245.131 ansible_ssh_user=mboufe ansible_ssh_pass=Mouloud18

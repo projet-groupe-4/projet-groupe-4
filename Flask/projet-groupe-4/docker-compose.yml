@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  projet:
+    build: .
+    image: "projet-groupe-4"   
+    ports:
+      - 8082:8082
+    hostname: web
